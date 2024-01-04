@@ -14,7 +14,8 @@ import org.testng.annotations.AfterSuite;
 public class BaseUtil {
 
 	public static WebDriver TCHdriver;
-	static String applicationURL = "https://www.google.com/";
+	// provide your web application url below
+	static String applicationURL = "";
 
 	
 	public void openUrl() {

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestCentralHub" verbose="1">
+
+    <test name="TestCentralHub Test" >
+        <parameter name="environment"  value="UAT"/>
+        <classes>
+            <class name="RunnerFiles.TestRunner" />
+        </classes>
+    </test>
+    <parameter name="outputdirectory" value="target/custom-output" />
+   
+</suite>
+
+
